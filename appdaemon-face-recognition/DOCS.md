@@ -4,7 +4,7 @@ AppDaemon is a loosely coupled, multithreaded, sandboxed python execution
 environment for writing automation apps for Home Assistant home automation
 software. It also provides a configurable dashboard (HADashboard) suitable
 for wall mounted tablets.
-This addon includes the [face_recognition package](https://github.com/ageitgey/face_recognition) 
+This addon includes the [face_recognition package](https://github.com/ageitgey/face_recognition)
 which allows recognizing faces from images. Images can be retrieved from configured cameras or stored image files.
 
 ## Installation
@@ -128,7 +128,7 @@ will help you getting upgraded to AppDaemon 4.x.
     `elevation` and `time_zone`.
   - Add a `http` section with `url: http://127.0.0.1:5050` in it.
   - At the end of the file add `admin:` and `api:`.
-  - Remove everthing under `hadashboard:`, leaving just that.
+  - Remove everything under `hadashboard:`, leaving just that.
 
 The result should look something like this:
 

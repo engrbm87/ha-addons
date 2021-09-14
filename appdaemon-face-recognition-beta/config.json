@@ -1,0 +1,47 @@
+{
+    "name": "AppDaemon with face recognition",
+    "version": "0.3.1b0",
+    "slug": "appdaemon-with-face-recognition",
+    "description": "Appdaemon with face recognition for Home Assistant",
+    "url": "https://github.com/engrbm87/appdaemon-with-face-recognition",
+    "webui": "http://[HOST]:[PORT:5050]",
+    "arch": [
+      "aarch64",
+      "amd64",
+      "armhf",
+      "armv7",
+      "i386"
+    ],
+    "init": false,
+    "homeassistant_api": true,
+    "uart": true,
+    "ports": {
+      "5050/tcp": 5050
+    },
+    "ports_description": {
+      "5050/tcp": "AppDaemon"
+    },
+    "map": [
+      "config:rw",
+      "share:rw",
+      "ssl"
+    ],
+    "options": {
+      "system_packages": [],
+      "python_packages": [],
+      "init_commands": []
+    },
+    "schema": {
+      "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
+      "system_packages": [
+        "str"
+      ],
+      "python_packages": [
+        "str"
+      ],
+      "init_commands": [
+        "str"
+      ]
+    },
+    "image": "engrbm87/ha-face-recognition-{arch}"
+  }
