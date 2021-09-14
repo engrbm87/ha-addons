@@ -1,47 +1,47 @@
 {
-    "name": "AppDaemon with face recognition",
-    "version": "0.3.0",
-    "slug": "appdaemon-with-face-recognition",
-    "description": "Appdaemon with face recognition for Home Assistant",
-    "url": "https://github.com/engrbm87/appdaemon-with-face-recognition",
-    "webui": "http://[HOST]:[PORT:5050]",
     "arch": [
-      "aarch64",
-      "amd64",
-      "armhf",
-      "armv7",
-      "i386"
+        "aarch64",
+        "amd64",
+        "armhf",
+        "armv7",
+        "i386"
     ],
-    "init": false,
+    "description": "Beta version of Appdaemon with face recognition for Home Assistant",
     "homeassistant_api": true,
-    "uart": true,
+    "image": "engrbm87/ha-face-recognition-{arch}",
+    "init": false,
+    "map": [
+        "config:rw",
+        "share:rw",
+        "ssl"
+    ],
+    "name": "AppDaemon with face recognition (beta)",
+    "options": {
+        "init_commands": [],
+        "python_packages": [],
+        "system_packages": []
+    },
     "ports": {
-      "5050/tcp": 5050
+        "5050/tcp": 5050
     },
     "ports_description": {
-      "5050/tcp": "AppDaemon"
-    },
-    "map": [
-      "config:rw",
-      "share:rw",
-      "ssl"
-    ],
-    "options": {
-      "system_packages": [],
-      "python_packages": [],
-      "init_commands": []
+        "5050/tcp": "AppDaemon"
     },
     "schema": {
-      "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
-      "system_packages": [
-        "str"
-      ],
-      "python_packages": [
-        "str"
-      ],
-      "init_commands": [
-        "str"
-      ]
+        "init_commands": [
+            "str"
+        ],
+        "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
+        "python_packages": [
+            "str"
+        ],
+        "system_packages": [
+            "str"
+        ]
     },
-    "image": "engrbm87/ha-face-recognition-{arch}"
-  }
+    "slug": "appdaemon-with-face-recognition-beta",
+    "uart": true,
+    "url": "https://github.com/engrbm87/appdaemon-with-face-recognition",
+    "version": "0.3.0",
+    "webui": "http://[HOST]:[PORT:5050]"
+}
