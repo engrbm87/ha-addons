@@ -15,7 +15,7 @@
         "share:rw",
         "ssl"
     ],
-    "name": "AppDaemon with face recognition (beta)",
+    "name": "AppDaemon with face recognition",
     "options": {
         "init_commands": [],
         "python_packages": [],
