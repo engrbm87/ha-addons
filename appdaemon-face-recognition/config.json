@@ -6,7 +6,7 @@
         "armv7",
         "i386"
     ],
-    "description": "Beta version of Appdaemon with face recognition for Home Assistant",
+    "description": "Appdaemon with face recognition for Home Assistant",
     "homeassistant_api": true,
     "image": "engrbm87/ha-face-recognition-{arch}",
     "init": false,
