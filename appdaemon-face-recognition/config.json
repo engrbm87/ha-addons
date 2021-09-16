@@ -39,7 +39,7 @@
             "str"
         ]
     },
-    "slug": "appdaemon-with-face-recognition-beta",
+    "slug": "appdaemon-with-face-recognition",
     "uart": true,
     "url": "https://github.com/engrbm87/appdaemon-with-face-recognition",
     "version": "0.3.0",
