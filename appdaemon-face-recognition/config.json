@@ -8,7 +8,7 @@
     ],
     "description": "Appdaemon with face recognition for Home Assistant",
     "homeassistant_api": true,
-    "image": "engrbm87/ha-face-recognition-{arch}",
+    "image": "engrbm87/appdaemon-with-face-recognition-{arch}",
     "init": false,
     "map": [
         "config:rw",
