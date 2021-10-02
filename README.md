@@ -6,7 +6,7 @@ Collection of addons that I customized for my requirements and wanted to share w
 
 ## Addons
 
-### &#10003; [AppDaemon with face recognition](https://github.com/engrbm87/appdaemon-with-face-recognition)
+### &#10003; [Addon Face Recognition](https://github.com/engrbm87/addon-face-recognition)
 
 [![Release][release-shield]][appdaemon-release]
 ![Supports armhf Architecture][armhf-yes-shield]

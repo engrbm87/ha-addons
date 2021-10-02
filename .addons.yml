@@ -1,6 +1,6 @@
 channel: stable
 addons:
-  appdaemon-with-face-recognition:
-    repository: engrbm87/appdaemon-with-face-recognition
-    target: appdaemon-with-face-recognition
-    image: engrbm87/appdaemon-with-face-recognition-{arch}
+  addon-face-recognition:
+    repository: engrbm87/addon-with-face-recognition
+    target: addon-with-face-recognition
+    image: engrbm87/addon-with-face-recognition-{arch}
