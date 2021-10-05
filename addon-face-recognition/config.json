@@ -15,6 +15,6 @@
     },
     "slug": "face-recognition",
     "url": "https://github.com/engrbm87/addon-face-recognition",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "webui": "http://[HOST]:[PORT:5001]"
 }
