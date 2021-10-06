@@ -2,5 +2,5 @@ channel: stable
 addons:
   addon-face-recognition:
     repository: engrbm87/addon-face-recognition
-    target: addon-face-recognition
+    target: face-recognition
     image: engrbm87/addon-face-recognition-{arch}
